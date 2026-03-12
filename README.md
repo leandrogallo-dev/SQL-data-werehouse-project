@@ -77,7 +77,6 @@ This project highlights practical experience with:
 ---
 ## 🛠️ Important Links & Tools:
 
-Everything is for Free!
 - **[Datasets](datasets/):** Access to the project dataset (csv files).
 - **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.
 - **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI for managing and interacting with databases.
@@ -119,9 +118,6 @@ The warehouse enables analysis of:
 - Revenue trends
 - Order volumes
 - Sales distribution
-
-More details:  
-`docs/requirements.md`
 
 ---
 
