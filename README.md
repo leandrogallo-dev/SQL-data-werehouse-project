@@ -131,15 +131,10 @@ data-warehouse-project/
 │   ├── sales_details.csv |
 │   ├── CUST_AZ12.csv     |
 │   ├── LOC_A101.csv      | source_erp
-│   ├── PX_CAT_G1V2.csv   |
+│   └── PX_CAT_G1V2.csv   |
 │
 ├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+│   └── ...
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── init_database.sql               # Scripts for create datawarehouse database
@@ -147,11 +142,11 @@ data-warehouse-project/
 │   ├── load_silver.sql                 # Scripts for load silver schema tables
 │   ├── load_gold_view.sql              # Scripts for load gold schema viewer
 │   ├── tables_bronze.sql               # Scripts for load bronze schema tables
-│   ├── tables_silver.sql               # Scripts for load silver schema tables
+│   └── tables_silver.sql               # Scripts for load silver schema tables
 │
 ├── quality-check/                      # quality files
 │   ├── quality_checks_gold.sql
-│   ├── quality_checks_silver.sql
+│   └── quality_checks_silver.sql
 │
 ├── README.md                           # Project overview and instructions
 ├── LICENSE                             # License information for the repository
